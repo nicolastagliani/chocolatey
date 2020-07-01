@@ -3,5 +3,5 @@ This repository serves the purpose of holding a powershell script that could be 
 
 In order to install everything in an unmanaged just copy/paste this on a powershell terminal with administration priviledges
 ```
-Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1')); iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/nicolastagliani/chocolatey/master/default_install.ps1'));
+Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1')); refreshenv; iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/ntagliani/chocolatey/master/default_install.ps1'));
 ```
