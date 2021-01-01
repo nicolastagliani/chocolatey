@@ -8,7 +8,9 @@ choco install -y vscode
 choco install -y python --params "/InstallDir:C:\python3"
 choco install -y virtualbox
 choco install -y vagrant
+choco install -y msys2 --params "/NoUpdate /InstallDir:C:\msys64"
 
+choco install -y microsoft-windows-terminal
 choco install -y nvidia-display-driver
 choco install -y keepass
 choco install -y putty
