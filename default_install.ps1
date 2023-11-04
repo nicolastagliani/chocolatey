@@ -1,17 +1,7 @@
 # Default packages to be installed in a fresh windows system
-choco install -y git.install --params "/NoGuiHereIntegration"
-choco install -y git-lfs
-choco install -y cmake --installargs 'ADD_CMAKE_TO_PATH=User ALLUSERS=0 DESKTOP_SHORTCUT_REQUESTED=0'
-choco install -y ninja
-# choco install visualstudio2019community
-choco install -y vscode
-choco install -y python --params "/InstallDir:C:\python3"
+
 choco install -y virtualbox
 choco install -y vagrant
-choco install -y msys2 --params "/NoUpdate /InstallDir:C:\msys64"
-
-choco install -y microsoft-windows-terminal
-choco install -y nvidia-display-driver
 choco install -y keepass
 choco install -y putty
 choco install -y 7zip
